@@ -1,0 +1,14 @@
+Here is documentation on what I went through to setup my project locally.
+
+#Installing Python Dependecies for EasyOCR
+- install: python3
+- install: pip3 install torch torchvision torchaudio
+    - If you are using debian based distro follow these commands:
+        run:
+        $ mkdir -p ~/.venvs
+        $ python3 -m venv ~/.venvs/foo
+        $ ~/.venvs/foo/bin/python -m pip install torch torchvision torchaudio
+        $ ~/.venvs/foo/bin/python -m pip install easyocr
+        # And if you want support for multiple langauges just add easyocr[chinese] full list of langauges can be found here and installation instructions: https://medium.com/@adityamahajan.work/easyocr-a-comprehensive-guide-5ff1cb850168
+
+
